@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+
+
+struct registro
+{
+    char nome[20];
+    char telefone[10];
+};
+
+
+
+
 void alocacao(){
 
 int linhas = 5;
